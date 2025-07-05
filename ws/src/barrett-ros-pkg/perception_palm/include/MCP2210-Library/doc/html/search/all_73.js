@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['selfpowered',['SelfPowered',['../struct_u_s_b_key_parameters_def.html#aace169dc444713da0e0c0f5672d64bd0',1,'USBKeyParametersDef']]],
+  ['sendaccesspassword',['SendAccessPassword',['../mcp2210_8cpp.html#a7de4c7ae20fcf6acbef30424395a7986',1,'SendAccessPassword(hid_device *handle, char *pwd, int pwdLength):&#160;mcp2210.cpp'],['../mcp2210_8h.html#a7de4c7ae20fcf6acbef30424395a7986',1,'SendAccessPassword(hid_device *handle, char *pwd, int pwdLength):&#160;mcp2210.cpp']]],
+  ['sendusbcmd',['SendUSBCmd',['../mcp2210_8cpp.html#ad2035535d0aeeaafe45fb9da0722cfad',1,'SendUSBCmd(hid_device *handle, byte *cmdBuf, byte *responseBuf):&#160;mcp2210.cpp'],['../mcp2210_8h.html#ad2035535d0aeeaafe45fb9da0722cfad',1,'SendUSBCmd(hid_device *handle, byte *cmdBuf, byte *responseBuf):&#160;mcp2210.cpp']]],
+  ['serial_5fnumber',['serial_number',['../structhid__device__info.html#a80756cea367e1566f966438984b75faf',1,'hid_device_info']]],
+  ['setchipsettings',['SetChipSettings',['../mcp2210_8cpp.html#ac141e9fbe79612eaf745ce9814ac66ee',1,'SetChipSettings(hid_device *handle, ChipSettingsDef def, bool isVolatile):&#160;mcp2210.cpp'],['../mcp2210_8h.html#accc2214dfb1d69eb9654358bdf27446a',1,'SetChipSettings(hid_device *handle, ChipSettingsDef def, bool isVolatile=true):&#160;mcp2210.cpp']]],
+  ['setgpiopindirection',['SetGPIOPinDirection',['../mcp2210_8cpp.html#a587186e5ac054e4239f014d6081b424f',1,'SetGPIOPinDirection(hid_device *handle, GPPinDef def):&#160;mcp2210.cpp'],['../mcp2210_8h.html#a587186e5ac054e4239f014d6081b424f',1,'SetGPIOPinDirection(hid_device *handle, GPPinDef def):&#160;mcp2210.cpp']]],
+  ['setgpiopinval',['SetGPIOPinVal',['../mcp2210_8cpp.html#a84c0182b5a8740b40b484fbd82267af3',1,'SetGPIOPinVal(hid_device *handle, GPPinDef def):&#160;mcp2210.cpp'],['../mcp2210_8h.html#a84c0182b5a8740b40b484fbd82267af3',1,'SetGPIOPinVal(hid_device *handle, GPPinDef def):&#160;mcp2210.cpp']]],
+  ['setmanufacturerproductname',['SetManufacturerProductName',['../mcp2210_8cpp.html#ae0440fcfdc1adbe1a76ea6d53ae400f7',1,'SetManufacturerProductName(hid_device *handle, unsigned int subCmdCode, ManufacturerProductNameDef def):&#160;mcp2210.cpp'],['../mcp2210_8h.html#ae0440fcfdc1adbe1a76ea6d53ae400f7',1,'SetManufacturerProductName(hid_device *handle, unsigned int subCmdCode, ManufacturerProductNameDef def):&#160;mcp2210.cpp']]],
+  ['setspitransfersettings',['SetSPITransferSettings',['../mcp2210_8cpp.html#a7c7fa077ea51968ef7f6d0fa8ee2fec7',1,'SetSPITransferSettings(hid_device *handle, SPITransferSettingsDef def, bool isVolatile):&#160;mcp2210.cpp'],['../mcp2210_8h.html#a13dd2cef2a3a1bb759a1feec17fb3419',1,'SetSPITransferSettings(hid_device *handle, SPITransferSettingsDef def, bool isVolatile=true):&#160;mcp2210.cpp']]],
+  ['setusbkeyparameters',['SetUSBKeyParameters',['../mcp2210_8cpp.html#a1379e6de32f81df8121a95b19afc77bf',1,'SetUSBKeyParameters(hid_device *handle, USBKeyParametersDef def):&#160;mcp2210.cpp'],['../mcp2210_8h.html#a1379e6de32f81df8121a95b19afc77bf',1,'SetUSBKeyParameters(hid_device *handle, USBKeyParametersDef def):&#160;mcp2210.cpp']]],
+  ['spi_5fstatus_5ffinished_5fno_5fdata_5fto_5fsend',['SPI_STATUS_FINISHED_NO_DATA_TO_SEND',['../mcp2210_8h.html#a239de9f10112b514560b093978f95734',1,'mcp2210.h']]],
+  ['spi_5fstatus_5fstarted_5fno_5fdata_5fto_5freceive',['SPI_STATUS_STARTED_NO_DATA_TO_RECEIVE',['../mcp2210_8h.html#af8fa0a51c85ba6f7d77f50e363a4b8de',1,'mcp2210.h']]],
+  ['spi_5fstatus_5fsuccessful',['SPI_STATUS_SUCCESSFUL',['../mcp2210_8h.html#adf038bac4ab1195954a3c12578c2056e',1,'mcp2210.h']]],
+  ['spibuscurrentowner',['SPIBusCurrentOwner',['../struct_chip_status_def.html#ac8d8808a7cf921e77831dc4e30e8d096',1,'ChipStatusDef']]],
+  ['spibusreleaseextreqstat',['SPIBusReleaseExtReqStat',['../struct_chip_status_def.html#ac1422f04b7345187a77b5d506dc8a492',1,'ChipStatusDef']]],
+  ['spibusreleasemode',['SPIBusReleaseMode',['../struct_chip_settings_def.html#abeaf6785170c987a19025a506cf14a8d',1,'ChipSettingsDef']]],
+  ['spidatatransfer',['SPIDataTransfer',['../mcp2210_8cpp.html#aa2cfbe9757c7be3421fcef7d0bdb82eb',1,'SPIDataTransfer(hid_device *handle, byte *data, int length):&#160;mcp2210.cpp'],['../mcp2210_8h.html#aa2cfbe9757c7be3421fcef7d0bdb82eb',1,'SPIDataTransfer(hid_device *handle, byte *data, int length):&#160;mcp2210.cpp']]],
+  ['spidatatransferstatusdef',['SPIDataTransferStatusDef',['../struct_s_p_i_data_transfer_status_def.html',1,'']]],
+  ['spienginestatus',['SPIEngineStatus',['../struct_s_p_i_data_transfer_status_def.html#a4a2227f2a2c87291d918a9a3f39c5d55',1,'SPIDataTransferStatusDef']]],
+  ['spimode',['SPIMode',['../struct_s_p_i_transfer_settings_def.html#a362c078515ae312b89face990d02d6c6',1,'SPITransferSettingsDef']]],
+  ['spisendreceive',['SPISendReceive',['../mcp2210_8cpp.html#a0df93baf2754a041a868b2794d30c8ff',1,'SPISendReceive(hid_device *handle, byte *data, int cmdBufferLength, int dataLength):&#160;mcp2210.cpp'],['../mcp2210_8h.html#a3ead14b01a9ff9afcec47423b4de3134',1,'SPISendReceive(hid_device *handle, byte *data, int cmdBufferLength, int dataLength=-1):&#160;mcp2210.cpp']]],
+  ['spitransfersettingsdef',['SPITransferSettingsDef',['../struct_s_p_i_transfer_settings_def.html',1,'']]],
+  ['subsequentdatabytedelay',['SubsequentDataByteDelay',['../struct_s_p_i_transfer_settings_def.html#a7692386eb70c3fd674c1a0fdbe7a62c2',1,'SPITransferSettingsDef']]]
+];

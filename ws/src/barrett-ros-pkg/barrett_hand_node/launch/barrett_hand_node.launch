@@ -1,0 +1,6 @@
+<launch>
+  <node name="barrett_hand_node" type="barrett_hand_node" pkg="barrett_hand_node" output="screen">
+    <remap from="/bhand/joint_states" to="/robot/joint_states"/>
+  </node>
+</launch>
+
