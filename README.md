@@ -18,21 +18,6 @@ This repo has my work on the Baxter robot for my thesis. It contains code for th
 Install ROS Noetic per the instructions [here](https://wiki.ros.org/noetic/Installation/Ubuntu)  
 Inside the workspace, call ```catkin_make```
 
-### Usage
-To bring up MoveIt!, source the workspace and call the appropriate launch file  
-```bash
-. baxter.sh
-. devel/setup.sh
-roslaunch pkg moveit_baxter_table
-```
-The following launch files exist:
-- moveit_baxter_empty: The moveit environment with only Baxter, both grippers and the F-T sensor
-- moveit_baxter_table: The MoveIt environment with the robot and the table in the robot enclosure
-- moveit_baxter_assembly: The MoveIt enviornment with the robot, table and a cylinder and box for the assembly task
-
-To run my assembly code, use the `moveit_baxter_assembly` launch file then call the script `python3 pickup_assemble.py`
-
-
 ## See also
 Previous theses at the following github repositories:
 - Aidan: https://github.com/Macindaw/Baxter2024
