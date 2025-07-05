@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+<node pkg="aidan" type="searchService.py" name="search_server" output="screen"/>
+<!--<node pkg="aidan" type="atiPub" name="atiPubTest" output="log"/>-->
+<node pkg="aidan" type="atiForces" name="atiForces" output="log"/>
+<node pkg="aidan" type="moveService.py" name="move_to_pos_server" output="screen"/>
+<node pkg="aidan" type="probeSurfaceService.py" name="probe_surface_server" output="screen"/>
+
+</launch>

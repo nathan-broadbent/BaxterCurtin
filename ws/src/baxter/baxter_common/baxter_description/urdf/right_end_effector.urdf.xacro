@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="right_end_effector" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find barrett_hand_vis)/urdf/bh282.urdf.xacro" />
+
+  <xacro:include filename="$(find barrett_hand_vis)/urdf/materials.xacro" />
+  
+  <xacro:bhand_macro name="bh" parent="right_hand">
+    <origin xyz="0 0 0" rpy="0 0 1.5708" /> 
+  </xacro:bhand_macro>
+
+  <!-- Import Rviz colors -->
+  <!-- <xacro:include filename="$(find barrett_hand_vis)/urdf/materials.xacro" />
+
+  <joint name="base_joint" type="fixed">
+    <origin xyz="0 0 0.002" rpy="0 0 4.7124"/>
+    <parent link="right_hand"/>
+    <child link="barrett_base_link"/>
+  </joint>
+  
+  <xacro:include filename="$(find barrett_hand_vis)/urdf/barrett_hand.xacro" /> -->
+
+</robot>

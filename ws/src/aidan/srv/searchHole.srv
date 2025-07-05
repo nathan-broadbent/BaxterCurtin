@@ -1,0 +1,8 @@
+float32 xPos
+float32 yPos
+float32 zHeight
+
+float32 searchWidth
+float32 searchLength
+---
+bool success

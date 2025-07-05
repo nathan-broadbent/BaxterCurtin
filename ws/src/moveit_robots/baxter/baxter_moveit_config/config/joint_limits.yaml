@@ -1,0 +1,125 @@
+# joint_limits.yaml allows the dynamics properties specified in the URDF to be overwritten or augmented as needed
+
+# For beginners, we downscale velocity and acceleration limits.
+# You can always specify higher scaling factors (<= 1.0) in your motion requests.  # Increase the values below to 1.0 to always move at maximum speed.
+default_velocity_scaling_factor: 0.1
+default_acceleration_scaling_factor: 0.1
+
+# Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
+# Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
+joint_limits:
+  bh_j11_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j12_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j13_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j21_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j22_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j23_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j32_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  bh_j33_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  finger_joint:
+    has_velocity_limits: true
+    max_velocity: 2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_e0:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_e1:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_s0:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_s1:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_w0:
+    has_velocity_limits: true
+    max_velocity: 4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_w1:
+    has_velocity_limits: true
+    max_velocity: 4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_w2:
+    has_velocity_limits: true
+    max_velocity: 4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_e0:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_e1:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_s0:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_s1:
+    has_velocity_limits: true
+    max_velocity: 1.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_w0:
+    has_velocity_limits: true
+    max_velocity: 4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_w1:
+    has_velocity_limits: true
+    max_velocity: 4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_w2:
+    has_velocity_limits: true
+    max_velocity: 4
+    has_acceleration_limits: false
+    max_acceleration: 0

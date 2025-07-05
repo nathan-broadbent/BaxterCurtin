@@ -1,0 +1,5 @@
+string arm
+geometry_msgs/Pose pose
+bool rel_cart
+---
+bool success
