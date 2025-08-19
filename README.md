@@ -1,6 +1,6 @@
-# Thesis_Tom
+# BaxterCurtin
 
-This repo has my work on the Baxter robot for my thesis. It contains code for the ROS nodes for Baxter, the two hands and the F-T sensor, as well as the MoveIt! integration nodes and related files.
+This repo contains the functions and packages for working with the Baxter Robot owned by Curtin University. It was created by Curtin students working on their thesis projects, and serves as a basis for future students working on the Baxter Robot.
 
 ## Structure
 - setup: detailed notes on bringing up all nodes and controlling baxter
@@ -22,3 +22,4 @@ Inside the workspace, call ```catkin_make```
 Previous theses at the following github repositories:
 - Aidan: https://github.com/Macindaw/Baxter2024
 - Alasdair: https://github.com/Alasdair28/Alasdair_Thesis
+- Tom: https://github.com/Tom41878/BaxterThesis
