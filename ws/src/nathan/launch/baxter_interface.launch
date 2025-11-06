@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- Joint Trajectory Action Server -->
+<node pkg="baxter_interface" type="joint_trajectory_action_server.py" name="joint_trajectory_action_server" output="screen"/>
+<!-- Barrett Hand -->
+<include file="$(find barrett_hand_node)/launch/barrett_hand_node.launch" />
+<!-- Robotiq Gripper -->
+<include file="$(find robotiq_2f_gripper_control)/launch/robotiq_action_server.launch" />
+<!-- ATI Force Torque Sensor -->
+  <node pkg="aidan" type="atiForces" name="atiForces" output="log"/>
+<!-- MoveIT demo -->
+<include file="$(find baxter_moveit_config)/launch/demo_baxter.launch" />
+
+</launch>
+
+
+

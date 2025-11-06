@@ -1,0 +1,8 @@
+float32[3] position
+float32[4] NormalQuat
+float32 zDistance
+
+float32 searchWidth
+float32 searchLength
+---
+bool success
